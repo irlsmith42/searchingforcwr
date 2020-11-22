@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.title{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    color: blue;
+    background-color: azure;
+    padding: .5em;
+    animation: title 13s 1;
+}
+
+#loading{
+    animation-name: loading;
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+
+@keyframes title { 
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+@keyframes loading {
+from {
+    width: 2000px;
+}
+to {
+    width: 1000px;
+}
+
+}

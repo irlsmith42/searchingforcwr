@@ -1,18 +1,13 @@
 
 body {
     background-color: #333366;
+    border: 10px solid #686868
 }
-h1 {
-    font-size: 50px;
-    font-weight: 800;
-    text-align: center;
-}
-h2 {
-    font-size: 20px;
-    font-weight: 500;
-}
-p {
+.mainbg{
     color: black;
+}
+
+p {
     margin: auto;
     font-size: 16px;
     line-height: 24px;
@@ -23,24 +18,14 @@ p {
     justify-content: center;
     height: 100px;
     padding: 1em;
+    width: 70vw;
 }
 .dividerimg {
     max-width: 500px;
     margin: 10px;
 }
 
-img {
-    max-width: 200px;
-    max-height: 150px;
-}
-#title {
-    background: #99ccff;
-    position: relative;
-    width: 400px;
-    margin: auto;
 
-
-}
 #intro {
     position: relative;
     margin-left: auto;
@@ -52,7 +37,16 @@ img {
     width: 100vw;
     justify-content: space-between;
 }
+.images{
+    max-width: 100px;
+    max-height: 100px;
+}
+
 .imagesleft{
+    width: 10vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffff66;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,27 +55,42 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    max-width: 600px;
+    max-width: 70vw;
 
 }
 .imagesright{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffff66;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 
 }
 #maintext {
-    max-width: 600px;
-    max-height: 500px;
+    max-width: 200px;
+    max-height: 200px;
     background-color: teal;
     margin: 5em;
     padding: 1em;
 }
 .lowermenu{
-    height: 20vw;
+    height: 20vh;
+    width: 80vw;
     position: relative;
-    background-image: url('../gifcities/starstwinkling.gif');    display: flex;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffff66;
+    font-family: Verdana;
+    color: #666699;
+    background-color: #;
 }
-
+.table{
+    height: 40vh;
+    width: 80vw;
+    border-color: #ffff66;
+}
 

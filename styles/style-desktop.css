@@ -1,78 +1,87 @@
+
 body {
-    background-color: black;
+    background-color: #333366;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+p {
+    color: black;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+.upperimages{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 1em;
+}
+.dividerimg {
+    max-width: 500px;
+    margin: 10px;
 }
 
-.container{
+img {
+    max-width: 200px;
+    max-height: 150px;
+}
+#title {
+    background: #99ccff;
+    position: relative;
+    width: 400px;
+    margin: auto;
+
+
+}
+#intro {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#threecolumns {
+    display: flex;
     width: 100vw;
-    height: 100vh;
+    justify-content: space-between;
 }
-
-.menus{
+.imagesleft{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 90vh;
-    animation-name: "title";
-    animation-duration: 10s;
-    animation-iteration-count: 1;
 }
-
-.title{
-    width: 40vw;
-    height: 10vh;
-    text-align: center;
-    color: blue;
-    background-color: azure;
-    padding: .5em;
- }
-
-.lowermenu{
-    width: 100vw;
-    height: 10vw;
+.centercolumn {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 600px;
+
+}
+.imagesright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#maintext {
+    max-width: 600px;
+    max-height: 500px;
+    background-color: teal;
+    margin: 5em;
+    padding: 1em;
+}
+.lowermenu{
+    height: 20vw;
+    position: relative;
+    background-image: url('../gifcities/starstwinkling.gif');    display: flex;
     justify-content: space-evenly;
- }
-
- .menubutton{
-     background-color: white;
-     margin: auto 0;
-     padding: 1em;
-     height: 9vh;
-     width: 20vw;
-     text-align: center;
- }
-
-.bg{
-    background-image: url("../assets/images/cobblehill3.png");
-    width: 120vw;
-    height: 120vh;
-    position: fixed;
-    z-index: -1;
+    align-items: center;
 }
 
-#loading{
-    animation-name: "loading";
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.6, 0.35, 0.15, 0.86);
-}
 
-@keyframes title { 
-    from {opacity: 0;}
-    to {opacity: 100;}
-}
-
-@keyframes loading {
-from {
-    width: 150vw;
-    left: -800px;
-    top: -700px;    
-}
-to {
-    width: 100vw;
-    top: 200px;
-    left: 0;
-}
-
-}

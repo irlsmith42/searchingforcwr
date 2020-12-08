@@ -1,43 +1,41 @@
 
 body {
-    background-color: #333366;
-    border: 10px solid #686868
+    background-color: #797979;
+
 }
 .mainbg{
-    color: black;
+    background-image: url("/assets/images/cobblehill3.png");
+    align-items: baseline;
+    background-color: #333366;
+    min-height: 1080px;
+    max-width: 1920px;
+    border: 4px solid #ffff66;
+    margin: 0 auto;
 }
 h1{
     font-size: 16pt;
+    line-height: 16pt;
+    margin: .2em;
 }
 
 p {
-    margin: auto;
-    font-size: 16px;
+    margin: .3em;
+    font-size: 14px;
     line-height: 24px;
 }
 .upperimages{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    padding: 1em;
-    width: 70vw;
+    position: absolute;
+    height: 10vh;
 }
 .dividerimg {
     max-width: 500px;
-    margin: 10px;
+    margin: 0 auto;
 }
 
-
-#intro {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-}
-#threecolumns {
+.threecolumns {
     display: flex;
-    width: 100vw;
+    max-width: 1920px;
+    min-width: 1080px;
     justify-content: space-between;
 }
 .images{
@@ -46,70 +44,51 @@ p {
 }
 
 .imagesleft{
+    border-style: solid;
+    border-width: 2px;
     width: 10vw;
-    border-style: solid;
-    border-width: 2px;
     border-color: #ffff66;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.centercolumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 70vw;
-
-}
-.imagesright{
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ffff66;
+    min-height: 1080px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-style: solid; 
 }
-#maintext {
-    max-width: 200px;
-    max-height: 200px;
-    background-color: teal;
-    margin: 5em;
-    padding: 1em;
-}
-.menu{
-    height: 20vh;
-    width: 80vw;
-    position: relative;
+.centercolumn {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 60vw;
+    min-width: 30vw;
+}
+.imagesright{
     border-style: solid;
     border-width: 2px;
+    width: 10vw;
     border-color: #ffff66;
-    font-family: Verdana;
-    color: #666699;
-    background-color: white;
+    min-height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid; 
 }
 
 #lowermenu {
     font-family: Verdana, Helvetica, sans-serif;  
     width: 80%;
+    height: 10%;
     margin: auto;
+    z-index: 1;
   }
   
   #lowermenu td, #lowermenu th {
     border: 3px solid #ffff66;
-    border-collapse: collapse;
     padding: 1em;
   }
   
-  #lowermenu tr:nth-child(even){background-color: #f2f2f2;}
+  #lowermenu tr {background-color: #ffffcc;}
   
-  #lowermenu tr:hover {background-color: #ddd;}
+  #lowermenu tr:hover {background-color: #ffffb6;}
   
-  #lowermenu th {
-    text-align: left;
-    background-color: #4CAF50;
-    color: white;
+  #lowermenu th {background-color: #cccccc;}
   }

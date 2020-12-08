@@ -23,15 +23,18 @@ p {
     font-size: 14px;
     line-height: 24px;
 }
-.upperimages{
-    position: absolute;
-    height: 10vh;
-}
+
 .dividerimg {
     max-width: 500px;
     margin: 0 auto;
 }
-
+.centercolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 60vw;
+    min-width: 30vw;
+}
 .threecolumns {
     display: flex;
     max-width: 1920px;
@@ -39,8 +42,10 @@ p {
     justify-content: space-between;
 }
 .images{
-    max-width: 100px;
-    max-height: 100px;
+    min-width: 80px;
+    max-width: 150px;
+    min-height: 80px;
+    max-height: 150px;
 }
 
 .imagesleft{
@@ -53,13 +58,11 @@ p {
     flex-direction: column;
     align-items: center;
     border-style: solid; 
-}
-.centercolumn {
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    max-width: 60vw;
-    min-width: 30vw;
+}
+#preview {
+    max-width: 50vw;
+    margin: auto;
 }
 .imagesright{
     border-style: solid;
@@ -71,6 +74,7 @@ p {
     flex-direction: column;
     align-items: center;
     border-style: solid; 
+    justify-content: space-around;
 }
 
 #lowermenu {

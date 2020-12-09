@@ -1,14 +1,14 @@
 
 body {
-    background-color: #797979;
+    background-color: #a1a1a1;
 
 }
 .mainbg{
     background-image: url("/assets/images/cobblehill3.png");
     align-items: baseline;
     background-color: #333366;
-    min-height: 1080px;
     max-width: 1920px;
+    max-height: 1280px;
     border: 4px solid #ffff66;
     margin: 0 auto;
 }
@@ -16,6 +16,7 @@ h1{
     font-size: 16pt;
     line-height: 16pt;
     margin: .2em;
+    text-align: left;
 }
 
 p {
@@ -26,26 +27,23 @@ p {
 
 .dividerimg {
     max-width: 500px;
-    margin: 0 auto;
+    margin: auto;
 }
 .centercolumn {
     display: flex;
     flex-direction: column;
-    justify-content: start;
     max-width: 60vw;
     min-width: 30vw;
 }
 .threecolumns {
     display: flex;
     max-width: 1920px;
-    min-width: 1080px;
+    max-height: 1280px;
     justify-content: space-between;
 }
 .images{
-    min-width: 80px;
-    max-width: 150px;
-    min-height: 80px;
-    max-height: 150px;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .imagesleft{
@@ -53,12 +51,13 @@ p {
     border-width: 2px;
     width: 10vw;
     border-color: #ffff66;
-    min-height: 1080px;
+    max-height: 1280px;
     display: flex;
+    padding: 1em;
     flex-direction: column;
     align-items: center;
     border-style: solid; 
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #preview {
     max-width: 50vw;
@@ -69,32 +68,35 @@ p {
     border-width: 2px;
     width: 10vw;
     border-color: #ffff66;
-    min-height: 1080px;
+    max-height: 1280px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-style: solid; 
+    padding: 1em;
     justify-content: space-around;
 }
 
 #lowermenu {
     font-family: Verdana, Helvetica, sans-serif;  
-    width: 80%;
-    height: 10%;
+    text-align: left;
+    color: #666699;
+    min-width: 600px;
     margin: auto;
-    z-index: 1;
+    height: 10%;
+    border-collapse: collapse;
   }
   
   #lowermenu td, #lowermenu th {
-    border: 3px solid #ffff66;
-    padding: 1em;
+    border: 3px solid #66cccc;
+    padding: .3em;
   }
   
   #lowermenu tr {background-color: #ffffcc;}
   
   #lowermenu tr:hover {background-color: #ffffb6;}
   
-  #lowermenu th {background-color: #cccccc;}
+  #lowermenu th {background-color: #ffffb6;}
   
   #note {
     font-family: sans-serif;

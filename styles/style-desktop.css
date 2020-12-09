@@ -95,4 +95,8 @@ p {
   #lowermenu tr:hover {background-color: #ffffb6;}
   
   #lowermenu th {background-color: #cccccc;}
-  }
+  
+  #note {
+    font-family: sans-serif;
+    color: greenyellow;
+}

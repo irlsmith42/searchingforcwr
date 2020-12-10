@@ -27,11 +27,10 @@ body {
 
 .description{
     width: 50vw;
-    height: 10vh;
     margin: 0 auto;
     font-family: Verdana, Tahoma, sans-serif;
     color: #666699;
     font-size: 12pt;
     padding: 3em;
-    background-color: #fafad788;
+    background-color: #f7f7ab9c;
 }
